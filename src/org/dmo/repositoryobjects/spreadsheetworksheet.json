@@ -1,0 +1,36 @@
+{
+	"spreadsheetworksheet":{
+		"_parent":{"type":"spreadsheet"},
+		"properties":{
+			"id":{"type":"long"},
+			"meta":{
+				"properties":{
+					"wkSheetKey":{"type":"string"},
+					"rowCount":{"type":"long"},
+					"relId":{"type":"string"},
+					"creator":{"type":"string"},
+					"created":{"type":"string"},
+					"lastModifiedBy":{"type":"string"},
+					"lastModified":{"type":"string"}
+				}
+			},
+			"feed":{
+				"properties":{
+					"id":{"type":"long"},
+					"worksheetId":{"type":"long"}
+				}
+			},
+			"nameSuggest":{
+				"properties":{
+					"input":{"type":"string"},
+					"output":{"type":"string"},
+					"payload":{
+						"properties":{
+							"uri":{"type":"string"}
+						}
+					}
+				}
+			}
+		}
+	}
+}

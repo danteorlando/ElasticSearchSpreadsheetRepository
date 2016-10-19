@@ -1,0 +1,33 @@
+{
+	"spreadsheet":{
+		"properties":{
+			"id":{"type":"long"},
+			"meta":{
+				"properties":{
+					"firmId":{"type":"long"},
+					"client":{"type":"string"},
+					"user":{"type":"string"},
+					"published":{"type":"boolean"},
+					"version":{"type":"string"},
+					"name":{"type":"string"},
+					"file":{"type":"string"},
+					"creator":{"type":"string"},
+					"created":{"type":"string"},
+					"lastModifiedBy":{"type":"string"},
+					"lastModified":{"type":"string"}
+				}
+			},
+			"nameSuggest":{
+				"properties":{
+					"input":{"type":"string"},
+					"output":{"type":"string"},
+					"payload":{
+						"properties":{
+							"uri":{"type":"string"}
+						}
+					}
+				}
+			}
+		}
+	}
+}

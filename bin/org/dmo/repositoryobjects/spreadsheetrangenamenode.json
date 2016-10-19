@@ -1,0 +1,27 @@
+{
+	"spreadsheetrangenamenode":{
+		"_parent":{"type":"spreadsheetworksheet"},
+		"properties":{
+			"id":{"type":"long"},
+			"node":{
+				"properties":{
+					"name":{"type":"string"},
+					"value":{"type":"string"},
+					"pos":{"type":"string"}
+				}
+			},
+			"labels":{"type":"string"},
+			"nameSuggest":{
+				"properties":{
+					"input":{"type":"string"},
+					"output":{"type":"string"},
+					"payload":{
+						"properties":{
+							"uri":{"type":"string"}
+						}
+					}
+				}
+			}
+		}
+	}
+}
